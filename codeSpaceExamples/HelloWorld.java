@@ -3,5 +3,7 @@ class HelloWorld{
         System.out.println("HelloWorld");
         System.out.println("Second Change");
         System.out.println("third change");
+
+        OtherPrintClass.printSomething();
     }
 } 
