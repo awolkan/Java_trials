@@ -5,5 +5,6 @@ class HelloWorld{
         System.out.println("third change");
 
         OtherPrintClass.printSomething();
+        System.out.println(OtherPrintClass.returnString());
     }
 } 
