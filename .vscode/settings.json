@@ -1,5 +1,6 @@
 {
     "java.project.sourcePaths": [
-        "deitelExamples/arrays",
+        "codeSpaceExamples",
+        "deitelExamples/arrays"
     ]
 }
