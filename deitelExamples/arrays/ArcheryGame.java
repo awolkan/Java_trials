@@ -39,15 +39,19 @@ class ArcheryGame {
         int players = 0;
 
         System.out.print("Enter the number of players: ");
+        boolean flag = true;
         while (true) {
             try {
                 String input = scanner.nextLine();
                 players = Integer.parseInt(input);
+                flag = true;
             } catch (Exception e) {
                 System.err.println("Error: " + e.getMessage());
                 System.out.println("Please enter a number:");
+                flag = false;
             }
-            break;
+            if (flag) 
+                break;
         }
         scanner.close();
         if (players == 0) {
